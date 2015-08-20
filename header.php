@@ -47,7 +47,7 @@
                 wp_nav_menu( array(
                         'theme_location'  => 'primary',
                         'container'       => false,
-                        'menu_class'      => 'nav navbar-nav',//  navbar-right
+                        'menu_class'      => 'nav navbar-nav navbar-right',//  navbar-right
                         'walker'          => new Bootstrap_Nav_Menu(),
                     )
                 );
