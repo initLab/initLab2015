@@ -51,7 +51,6 @@
                         'walker'          => new Bootstrap_Nav_Menu(),
                     )
                 );
-                get_search_form();
                 ?>
             </div><!-- /.navbar-collapse -->
 
